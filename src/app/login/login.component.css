@@ -1,0 +1,20 @@
+label {
+  color: black;
+  font-weight: bold;
+  font-size: 1vw;
+  font-family: 'Georgia', 'serif';
+}
+button {
+  margin: 2%;
+}
+.form-card {
+  max-width: 400px;
+  margin-top: 5%;
+  background-color: #ccc;
+}
+.ng-valid:not(form) {
+  border-left: 5px solid green;
+}
+.ng-touched.ng-invalid:not(form) {
+  border-left: 5px solid red;
+}

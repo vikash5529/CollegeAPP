@@ -1,0 +1,84 @@
+.wrapper {
+  width: 50vw;
+  overflow-y: scroll;
+  z-index: 1;
+  height: 420px;
+}
+
+td,
+th {
+  width: 10vw;
+}
+button {
+  position: absolute;
+  top: 3%;
+  right: 2%;
+  font-family: 'Georgia', 'serif';
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+.add-icon {
+  font-size: 2.2vw;
+  color: green;
+  padding: 1%;
+  margin-top: 1%;
+  cursor: pointer;
+}
+.edit-icon {
+  font-size: 2vw;
+  color: blue;
+  cursor: pointer;
+}
+h4 {
+  position: absolute;
+  top: 5%;
+  left: 0.5%;
+  z-index: 1;
+  font-size: 1.5vw;
+  font-family: 'Georgia', 'serif';
+  color: white;
+}
+
+.mat-row:nth-child(even) {
+  background-color: #ccc;
+}
+.mat-row:nth-child(odd) {
+  background-color: whitesmoke;
+}
+.mat-header-cell {
+  color: black;
+  font-size: 1vw;
+  font-weight: bold;
+  font-family: 'Georgia', 'serif';
+}
+.mat-column-name,
+.mat-column-degree,
+.mat-column-city {
+  color: black;
+  font-size: 1vw;
+  font-family: 'Georgia', 'serif';
+}
+.mat-column-rollNo {
+  color: black;
+  font-size: 1vw;
+  font-family: 'Georgia', 'serif';
+}
+.mat-card {
+  height: 500px;
+  margin: 2%;
+  width: 53vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(243, 231, 215);
+}
+.mat-form-field {
+  width: 9vw;
+  margin-top: -2%;
+  color: black;
+  font-size: 1vw;
+  font-family: 'Georgia', 'serif';
+}

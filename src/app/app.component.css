@@ -1,0 +1,25 @@
+div {
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.flex-header {
+  background-color: blue;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  font-size: 2.5vw;
+  font-family: 'Georgia', 'serif';
+}
+.flex-main {
+  display: flex;
+  flex: 1 1 0;
+  justify-content: center;
+}
+
+.flex-footer {
+  background-color: darkgrey;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
